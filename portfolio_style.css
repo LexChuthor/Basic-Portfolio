@@ -1,0 +1,35 @@
+.topBlock{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+    border-color: gray;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    align-content: center;
+    margin: auto;
+}
+
+#namePlate{
+
+}
+
+#navBar{
+    position: absolute;
+    right: 140px;
+
+}
+.container{
+    max-width: 960px;
+    align-content: center;
+    margin: auto;
+}
+
+footer{
+    align-content: center;
+    margin: 0 auto;
+    display: table;
+}
