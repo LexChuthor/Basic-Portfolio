@@ -70,8 +70,23 @@ a{
 }
 .container{
     max-width: 960px;
+}
 
+.blockTitles{
+    max-width: 150px;
+    max-height: 150px;
+}
+#sP, #fP, #eP, #gP{
+    width: 150px;
+    height: 150px;
+}
 
+#Education, #Sports, #Fitness, #Games{
+    float: left;
+}
+#gamePlate, #educationPlate, #sportPlate,#fitnessPlate{
+    background-color: teal;
+    color: white;
 }
 
 footer{
