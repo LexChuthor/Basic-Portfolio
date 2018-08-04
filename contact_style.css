@@ -1,16 +1,8 @@
-.topBlock{
-    /* width: 100%;
-    position: absolute;
-    top: 0px;
-    background-color: #ffffff;
-    border-color: gray;
-    border-bottom-width: 2px;
-    border-style: solid;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    align-content: center;
-    margin: auto; */
+html{
+    height:100%;
+}
+
+header{
     background-color: #ffffff;
     border-style: solid;
     border-color: #ffffff;
@@ -22,6 +14,26 @@
     border-bottom-color: grey;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+.namePlate{
+    background-color: teal;
+    padding: 30px;
+    max-width:fit-content;
+    color: white;
+    align-content: center;
+    line-height: 50px;
+    font-size: 36px;
+    display: inline-block;
+}
+
+.navBar{
+    float: right;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 18px;
+    color: grey;
+    word-spacing: 5px;
+}
+
 body{
     min-height: 400px;
     max-width: 960px;
@@ -33,45 +45,22 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    line-height: 24px;
     clear: both;
 }
 
-.container{
-    background-color: #ffffff;
+h1{
+    color: teal;
+}
+
+.container{   
+     background-color: #ffffff;
     border-width: 2px;
     border-color: #dddddd;
     overflow: auto;
     padding: 18px;
     flex: 1 0 auto;
-}
-
-#namePlate{
-    background-color: teal;
-    padding: 30px;
-    max-width:fit-content;
-    color: white;
-    align-content: center;
-    line-height: 50px;
-    font-size: 36px;
-    display: inline-block;
-}
-
-a{
-    text-decoration: none;
-}
-
-#navBar{
-    float: right;
-    line-height: 70px;
-    display: inline-block;
-    font-size: 18px;
     color: grey;
-    word-spacing: 5px;
-}
-.container{
-    max-width: 960px;
-
-
 }
 
 footer{
@@ -93,4 +82,31 @@ footer{
     padding-right: 3000px;
     margin-left: -3000px;
     padding-left: 3000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nameInput{
+    width: 100%;
+}
+::-webkit-input-placeholder{
+    color: grey;
+}
+
+#emailInput{
+    width: 100%;
+}
+
+#messageInput{
+    width: 100%;
+    height: 120px;
+}
+
+#submitButton{
+    background-color: teal;
+    color: white;
+    height: 30px;
+    width: 80px;
 }
